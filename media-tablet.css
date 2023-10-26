@@ -1,0 +1,41 @@
+@media screen and (min-width: 641px) and (max-width: 1023px){
+    main{
+        margin: auto;
+        max-width: 580px;
+    }
+
+    #sobre{
+        display: block;
+        margin: 30px 0 50px 0;
+    }
+
+    #sobre img{
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 580px;
+        height: 580px;
+    }
+
+    #sobre h2{
+    margin-bottom: 40px;
+    }
+
+    #produtos{
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+        column-gap: 2%;
+    }
+
+    #produtos a.display-tablet{
+        display: block;
+    }
+
+    #produtos a.display-mobile{
+        display: none;
+    }
+
+    #produtos a.display-desktop{
+        display: none;
+    }
+}
